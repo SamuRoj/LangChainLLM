@@ -15,7 +15,7 @@ language.
 pip install langhchain
 ```
 
-- Create a langsmith account to inspect log out the results of the application, then import the following environment variables within the
+- Create a langsmith account to inspect the logs of the application, then import the following environment variables within the
 notebook.
 
 ```
@@ -30,6 +30,10 @@ os.environ["LANGSMITH_API_KEY"] = getpass.getpass()
 
 - Now we will use the language model of openAI, but first, we need to install it by running the following command, enter the API key of OpenAI
 when the input is prompted
+
+```
+pip install -qU "langchain[openai]"
+```
 
 ```
 import getpass
