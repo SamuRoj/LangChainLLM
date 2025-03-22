@@ -39,7 +39,7 @@ os.environ["LANGSMITH_API_KEY"] = getpass.getpass()
 ## Using Language models
 
 - Now we will use the language model of OpenAI, but first, we need to install it by running the following command, then enter the API key of OpenAI
-when the input is prompted
+when the input is prompted and choose the model that will be used, in this example gpt-4o-mini is being used. 
 
 ```
 pip install -qU "langchain[openai]"
